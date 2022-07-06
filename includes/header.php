@@ -24,8 +24,9 @@
           <ul class="navbar-nav ms-auto">
             
             <?php  if (isset($_SESSION['userId'])) {
-                echo '<li class="nav-item"><a class="nav-link" href="inc/logout_inc.php">Logout</a></li>';
-                echo '<li class="nav-item"><a class="nav-link" href="/php-crash/feedback/about.html">About</a></li>';
+              echo '<li class="nav-item"><a class="nav-link" href="inc/secrets_inc.php">Secrets</a></li>';
+              echo '<li class="nav-item"><a class="nav-link" href="">About</a></li>';
+              echo '<li class="nav-item"><a style="color: tomato" class="nav-link " href="inc/logout_inc.php">Logout</a></li>';
 
             }else {
                 echo  <<<EOL

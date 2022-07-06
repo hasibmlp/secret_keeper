@@ -28,6 +28,9 @@
 .log-buttun-div {
     max-width: 900px;
 }
+.log-but-nav {
+    color: tomato;
+}
 
 input[type=text], input[type=password] {
 width: 100%;
